@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>sign in page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="  bg-gradient-to-r from-slate-900 to-slate-700 flex justify-center items-center py-16">
+      
+    <div class="grid grid-cols-2 max-w-[960px] items-center justify-center gap-32 bg-[#00000050] p-5 rounded-3xl border-[1.5px] border-[#a4a1c3]">
+       
+        <div class="relative">
+            <img src="img/image2.svg" alt="" class="rounded-3xl">
+            <img src="img/image1.svg" alt="" class="absolute top-36"> 
+        </div>
+
+
+        <div class="max-w-[330px] grid gap-5">
+
+            <h1 class="text-5xl font-bold text-white">Sign in</h1>
+            <p class="text-[#C0BDD7]">Access to 300+ hours of courses, tutorials and livestreams</p>
+
+            <form action="" class="space-y-6 text-white">
+
+
+                 <div class="relative">
+                    <div class="absolute top-1.5 left-1.5 bg-[#ffffff30] rounded-full p-2.5 flex items-center justify-center">
+                        <i class="fa-solid fa-envelope-open"></i>
+                    </div>
+                    <input type="email" placeholder="Email address" class="bg-[#FFFFFF30] w-80 rounded-full py-3 px-14  border-[0.20px] border-[#a3a2a7] focus:bg-[#00000050] focus:outline-none focus:ring-1 focus:ring-[#2FB8FF] focus:drop-shadow-xl">
+                 </div>
+
+        
+                 <div class="relative">
+                    <div class="absolute top-1.5 left-1.5 bg-[#ffffff30] rounded-full p-2.5 flex items-center justify-center">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <input type="password" placeholder="Password" class="bg-[#FFFFFF30] w-80 rounded-full py-3  px-14 border-[0.20px] border-[#a3a2a7] focus:bg-[#00000050] focus:outline-none focus:ring-1 focus:ring-[#2FB8FF] focus:drop-shadow-2xl">
+                 </div>
+
+
+                 <button class="w-80 rounded-full bg-[#2FB8FF] py-3 font-semibold  drop-shadow-2xl ">Sign in</button>
+            </form>
+            <div class="text-[#C0BDD7] text-[0.80rem] font-semibold  mt-2 border-t-[0.25px] border-[#a3a2a7] grid gap-5">
+                <p class="mt-4 ">Don't have an account?<a href="#" class="text-[#2FB8FF] font-bold">Sign up</a></p>
+                <p>Forgot password?<a href="#" class="text-[#2FB8FF] font-bold">Reset password</a></p>
+                <p>Don't have a password yet? <a href="#" class="text-[#2FB8FF] font-bold">Set password</a></p>
+            </div>
+        </div>
+      </div>
+</body>
+</html>
